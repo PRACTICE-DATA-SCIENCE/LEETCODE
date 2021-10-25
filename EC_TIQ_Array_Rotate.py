@@ -5,12 +5,29 @@
 # Array type of question
 # 189. Rotate Array
 
-# You are given an integer array prices where prices[i] is the price of
-# a given stock on the ith day.
-# On each day, you may decide to buy and / or sell the stock. You can
-# only hold at most one share of the stock at any time. However, you can
-# buy it then immediately sell it on the same day.
-# Find and return the maximum profit you can achieve.
+# Given an array, rotate the array to the right by k steps,
+# where k is non-negative.
+# Example 1:
+# Input: nums = [1, 2, 3, 4, 5, 6, 7], k = 3
+# Output: [5, 6, 7, 1, 2, 3, 4]
+# Explanation:
+# rotate 1 steps to the right: [7, 1, 2, 3, 4, 5, 6]
+# rotate 2 steps to the right: [6, 7, 1, 2, 3, 4, 5]
+# rotate 3 steps to the right: [5, 6, 7, 1, 2, 3, 4]
+# Example 2:
+# Input: nums = [-1, -100, 3, 99], k = 2
+# Output: [3, 99, -1, -100]
+# Explanation:
+# rotate 1 steps to the right: [99, -1, -100, 3]
+# rotate 2 steps to the right: [3, 99, -1, -100]
+# Constraints:
+# 1 <= nums.length <= 105
+# -231 <= nums[i] <= 231 - 1
+# 0 <= k <= 105
+# Follow up:
+# Try to come up with as many solutions as you can. There are at least three different ways to solve this problem.
+# Could you do it in -place with O(1) extra space?
+# Accepted 833.3K # Submissions 2.2M
 
 # https://www.python.org/dev/peps/pep-0008/#maximum-line-length
 # the line length should be limited to 72 characters

@@ -1,3 +1,8 @@
+# ignore .DS_STORE (file is a Mac OS X folder information file)
+**/**/.DS_STORE
+
+
+# standard template
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

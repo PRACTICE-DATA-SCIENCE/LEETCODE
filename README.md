@@ -1,2 +1,3 @@
 # LEETCODE
-Leetcode practice
+Leetcode practice, refer leetcode.com
+
